@@ -35,7 +35,7 @@ The pipeline ingests raw data, performs structured transformations, and produces
 - Implemented a single pipeline covering Bronze → Silver → Gold
 - Executed the pipeline multiple times successfully
 
-### Pipeline Orchestration
+### Pipeline DAG
 ![Pipeline DAG](pipeline/pipeline_dag.png)
 
 ## Pipeline Execution & Monitoring
@@ -44,7 +44,7 @@ The pipeline ingests raw data, performs structured transformations, and produces
 - Verified successful job runs via Databricks Job history
 
 ### Job Run History
-![Job Run History](pipeline/job_run.png)
+![Job Run History](pipeline/job_run_history.png)
 
 ## Technologies Used
 - Databricks
